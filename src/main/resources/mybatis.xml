@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>    
+  
+	<settings>
+		   <!-- log4j 记录文件 -->
+			<setting value="LOG4J" name="logImpl"/>
+			<!-- 二级缓存开启的 ..... -->
+			<setting value="true" name="cacheEnabled"/>
+	</settings> 
+  	
+  	
+    <typeAliases>
+        <package name="com.wskj.dec.pojo" />
+    </typeAliases>
+    
+</configuration>
